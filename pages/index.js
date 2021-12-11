@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import Card from '../components/Card/Card';
@@ -29,7 +28,7 @@ export default function Index() {
           name="Bolinho de Chuva"
           category="Lanches"
           picture="https://img.itdg.com.br/tdg/images/recipes/000/014/950/329096/329096_original.jpg?mode=crop&width=710&height=400"
-          link="/receitas/doces/bolinho-de-chuva"
+          link="/receitas/lanches/bolinho-de-chuva"
 
         />
 
@@ -37,7 +36,7 @@ export default function Index() {
           name="Molho Branco"
           category="Molhos"
           picture="https://img.itdg.com.br/tdg/images/recipes/000/044/199/332851/332851_original.jpg?mode=crop&width=710&height=400"
-          link="/receitas/doces/molho-branco"
+          link="/receitas/molhos/molho-branco"
 
         />
       </main>
